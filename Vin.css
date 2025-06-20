@@ -35,7 +35,6 @@ body {
   border-radius: 8px;
   top: 0;
   bottom: 0;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 
@@ -49,7 +48,7 @@ body {
 }
 
 .menu :hover {
-  background-color: #7abbc2;
+  background-color: #6f8b7d;
   border-radius: 8px;
 
 }
@@ -97,14 +96,14 @@ body {
   align-items: center;
   justify-content: space-between;
   margin: 250px 150px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
 }
 
 .info .picture {
   display: flex;
   width: 40%;
   height: 10%;
-
+  
 
 }
 
@@ -127,11 +126,9 @@ body {
   text-align: center;
   color: white;
   position: relative;
-  border-bottom: 4px solid #00e5ff;
+  border-bottom: 4px solid #6f8b7d;
   border-radius: 50px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
 
 .image {
   position: relative;
@@ -159,7 +156,6 @@ body {
   display: flex;
   width: 80px;
   padding: 25px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 
@@ -182,7 +178,6 @@ body {
   display: inline-block;
   text-align: center;
   line-height: 200px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 

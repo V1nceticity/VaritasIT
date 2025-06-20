@@ -37,7 +37,7 @@ body {
   border-radius: 8px;
   top: 0;
   bottom: 0;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
 }
 
 .menu a {
@@ -50,7 +50,7 @@ body {
 }
 
 .menu :hover {
-  background-color: #7abbc2;
+  background-color: #6f8b7d;
   border-radius: 8px;
 
 }
