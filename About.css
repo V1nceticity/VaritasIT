@@ -1,7 +1,5 @@
-* {
-  margin: 0;
-  padding: 0;
-
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -38,6 +36,7 @@ body {
   top: 0;
   bottom: 0;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
 }
 
 .menu a {
@@ -65,17 +64,14 @@ body {
   z-index: -1;
 }
 
-
-
-p {
-  background-position: center;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  left: 33%;
+.team {
+  left: 34%;
   top: 18%;
-  position: fixed;
+  position: absolute;
+  font-family: helvetica, arial;
   text-transform: uppercase;
-  font-size: 100px;
-  letter-spacing: 8px;
+  font-size: 110px;
+  letter-spacing: 4px;
   overflow: hidden;
   background: linear-gradient(90deg, #000, #fff, #000);
   background-repeat: no-repeat;
@@ -95,34 +91,50 @@ p {
   }
 }
 
-.card-list .card-item {
-  position: relative;
-  right: 100px;
-  color: white;
-  padding: 30px;
-  align-items: center;
+.about-us {
+  position: absolute;
+  padding: 40px;
+  width: 70%;
   text-align: center;
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
-  transition: transform 0.3s;
-  margin-top: 250px;
-  transition: cubic-bezier(0.19, 1, 0.22, 1);
+  margin: 300px 250px;
 }
 
-.card-list .card-item .User-image {
-  width: 320px;
-  height: 330px;
-  border-radius: 50%;
-  padding: 4px;
-  border: 3px solid rgb(255, 255, 255, 0.4);
-  margin-bottom: 20px;
+.border-box {
+  padding: 40px;
+  border: 4px solid #00bcd4;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 16px rgb(255, 255, 255, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
 }
 
-.card-list .card-item .name {
+.border-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgb(255, 255, 255, 0.6);
+}
 
-  font-size: 35px;
-  font-weight: 200;
+h1 {
+  font-size: 2.8rem;
   margin-bottom: 10px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #ffffff;
+}
+
+h1 span {
+  color: #00e5ff;
+}
+
+.tagline {
+  font-size: 20px;
+  font-style: italic;
+  margin-bottom: 30px;
+  color: #cccccc;
+}
+
+.description {
+  font-size: 20px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  color: #ffffff;
 }
